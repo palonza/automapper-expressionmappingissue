@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExpressionMappingIssue")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c9deb36708b71caf66282fd2920c1f831eb09c3c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b5d1938b7b7479e06b5562f0f82cf1c08c903dd7")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExpressionMappingIssue")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExpressionMappingIssue")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ExpressionMappingIssue
-build_property.ProjectDir = /home/polook-suse/git/automapper/automapper-expressionmappingissue/ExpressionMappingIssue/
+build_property.ProjectDir = /home/polook-suse/git/automapper2/automapper-expressionmappingissue/ExpressionMappingIssue/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
