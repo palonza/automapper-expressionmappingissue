@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "o7AwBHWvTfHAl3wgTbd5Xr2cmlZ3qoVgWqJjMWqe47elDm83IE+jtj/fWhvzgKbLU55AYTFkpJNb+bsviNOfoQ==",
+  "success": true,
+  "projectFilePath": "/home/polook-suse/git/automapper/automapper-expressionmappingissue/ExpressionMappingIssue/ExpressionMappingIssue.csproj",
+  "expectedPackageFiles": [
+    "/home/polook-suse/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/home/polook-suse/.nuget/packages/automapper.extensions.expressionmapping/6.0.4/automapper.extensions.expressionmapping.6.0.4.nupkg.sha512",
+    "/home/polook-suse/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

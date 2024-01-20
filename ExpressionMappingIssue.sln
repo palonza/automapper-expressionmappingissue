@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpressionMappingIssue", "ExpressionMappingIssue\ExpressionMappingIssue.csproj", "{A2A7442C-2416-4657-88D0-89EF9B125393}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2A7442C-2416-4657-88D0-89EF9B125393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2A7442C-2416-4657-88D0-89EF9B125393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2A7442C-2416-4657-88D0-89EF9B125393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2A7442C-2416-4657-88D0-89EF9B125393}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55203262-9F36-437C-8384-F479AD3BF016}
+	EndGlobalSection
+EndGlobal
