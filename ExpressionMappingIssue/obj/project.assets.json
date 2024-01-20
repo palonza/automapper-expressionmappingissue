@@ -157,11 +157,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/polook-suse/git/automapper/automapper-expressionmappingissue/ExpressionMappingIssue/ExpressionMappingIssue.csproj",
+      "projectUniqueName": "/home/polook-suse/git/automapper2/automapper-expressionmappingissue/ExpressionMappingIssue/ExpressionMappingIssue.csproj",
       "projectName": "ExpressionMappingIssue",
-      "projectPath": "/home/polook-suse/git/automapper/automapper-expressionmappingissue/ExpressionMappingIssue/ExpressionMappingIssue.csproj",
+      "projectPath": "/home/polook-suse/git/automapper2/automapper-expressionmappingissue/ExpressionMappingIssue/ExpressionMappingIssue.csproj",
       "packagesPath": "/home/polook-suse/.nuget/packages/",
-      "outputPath": "/home/polook-suse/git/automapper/automapper-expressionmappingissue/ExpressionMappingIssue/obj/",
+      "outputPath": "/home/polook-suse/git/automapper2/automapper-expressionmappingissue/ExpressionMappingIssue/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/polook-suse/.nuget/NuGet/NuGet.Config"

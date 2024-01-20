@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o7AwBHWvTfHAl3wgTbd5Xr2cmlZ3qoVgWqJjMWqe47elDm83IE+jtj/fWhvzgKbLU55AYTFkpJNb+bsviNOfoQ==",
+  "dgSpecHash": "ajHG1p2elFFZXOf37h7fUq91IGw5VCUJ9ww2Z3YluLTyb77pEAzPaohXXFdZYzzSVK3nu1Pd4J+ViT6VTgrvxQ==",
   "success": true,
-  "projectFilePath": "/home/polook-suse/git/automapper/automapper-expressionmappingissue/ExpressionMappingIssue/ExpressionMappingIssue.csproj",
+  "projectFilePath": "/home/polook-suse/git/automapper2/automapper-expressionmappingissue/ExpressionMappingIssue/ExpressionMappingIssue.csproj",
   "expectedPackageFiles": [
     "/home/polook-suse/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
     "/home/polook-suse/.nuget/packages/automapper.extensions.expressionmapping/6.0.4/automapper.extensions.expressionmapping.6.0.4.nupkg.sha512",
