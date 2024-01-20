@@ -16,7 +16,7 @@ namespace ExpressionMappingIssue
 
                 // Same source type can map to different target types. This seems unsupported currently.
                 cfg.CreateMap<SourceListItemType, TargetListItemType>().ReverseMap();
-                cfg.CreateMap<SourceChildListItemType, TargetChildListItemType>().ReverseMap();
+                cfg.CreateMap<SourceListItemType, TargetChildListItemType>().ReverseMap();
 
             }).CreateMapper();
 
@@ -54,14 +54,12 @@ namespace ExpressionMappingIssue
                 .ToList();
 
             //Expression<Func<TargetType1, bool>> target1sWithListItemsExpr = mapper.Map<Expression<Func<TargetType1, bool>>>(sourcesWithListItemsExpr);
-            Expression<Func<TargetType, bool>> target1sWithListItemsExpr = mapper.MapExpression<Expression<Func<TargetType, bool>>>(sourcesWithListItemsExpr);
+            Expression<Func<TargetType, bool>> target1sWithListItemsExpr = mapper.MapExpression<Expression<Func<TargetType, bool>>>(sourcesWithListItemsExpr); // FAILS: No generic method 'Any' on type 'System.Linq.Enumerable' is compatible with the supplied type arguments and arguments. No type arguments should be provided if the method is non-generic. 
 
             // Get the TargetTypes that match the translated expression
             var target1sWithListItems = targets
                 .AsQueryable().Where(target1sWithListItemsExpr) // Without AddExpressionMapping() this line throws an UnreachableException
                 .ToList();
-            Console.WriteLine($"source list: {sourcesWithListItems.Count}");
-            Console.WriteLine($"target list: {target1sWithListItems.Count}");
         }
     }
 }
