@@ -54,7 +54,7 @@ namespace ExpressionMappingIssue
                 .ToList();
 
             //Expression<Func<TargetType1, bool>> target1sWithListItemsExpr = mapper.Map<Expression<Func<TargetType1, bool>>>(sourcesWithListItemsExpr);
-            Expression<Func<TargetType, bool>> target1sWithListItemsExpr = mapper.MapExpression<Expression<Func<TargetType, bool>>>(sourcesWithListItemsExpr); // FAILS: No generic method 'Any' on type 'System.Linq.Enumerable' is compatible with the supplied type arguments and arguments. No type arguments should be provided if the method is non-generic. 
+            Expression<Func<TargetType, bool>> target1sWithListItemsExpr = mapper.MapExpression<Expression<Func<TargetType, bool>>>(sourcesWithListItemsExpr);
 
             // Get the TargetTypes that match the translated expression
             var target1sWithListItems = targets
